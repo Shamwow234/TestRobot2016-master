@@ -20,6 +20,8 @@
 	bool buttonBpressed;
 	bool buttonXpressed;
 	bool buttonYpressed;
+	float rightTriggerpressed;
+	float rightTriggerpressed;
 
 /**
  *
