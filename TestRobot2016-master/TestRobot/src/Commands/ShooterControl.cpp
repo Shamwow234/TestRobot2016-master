@@ -81,6 +81,7 @@ void ShooterControl::Execute() {
 		{
 		Robot::shooterSubsystem->Shoot(0);
 		}
+	
 	leftTriggerpressed = Robot::oi->getGunnerJoystick()->GetRawButton(1);
 		if(leftTriggerpressed > 0 && leftTriggerpressed < 0)
 		{
@@ -90,7 +91,8 @@ void ShooterControl::Execute() {
 		{
 			Robot::shooterSubsystem->Shoot(0)
 		}
-			rightTriggerpressed = Robot::oi->getGunnerJoystick()->GetRawButton(1);
+		
+	rightTriggerpressed = Robot::oi->getGunnerJoystick()->GetRawButton(1);
 		if(leftTriggerpressed > 0 && leftTriggerpressed < 0)
 		{
 			Robot::shooterSubsystem->Shoot(1)
