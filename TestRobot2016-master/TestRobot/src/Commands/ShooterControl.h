@@ -21,7 +21,7 @@
 	bool buttonXpressed;
 	bool buttonYpressed;
 	float rightTriggerpressed;
-	float rightTriggerpressed;
+	float leftTriggerpressed;
 
 /**
  *
