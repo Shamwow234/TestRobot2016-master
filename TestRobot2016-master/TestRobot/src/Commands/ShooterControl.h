@@ -16,11 +16,20 @@
 #include "Commands/Subsystem.h"
 #include "../Robot.h"
 
+<<<<<<< HEAD
 
 
 
 	//Initializing the buttons for ShooterControl.cpp
 	//ShooterControl.cpp includes ShooterControl.h for the buttons and triggers
+=======
+	bool buttonApressed;
+	bool buttonBpressed;
+	bool buttonXpressed;
+	bool buttonYpressed;
+	float rightTriggerpressed;
+	float leftTriggerpressed;
+>>>>>>> origin/master
 
 /**
  *
